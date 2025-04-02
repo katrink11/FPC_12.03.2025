@@ -71,7 +71,7 @@ int main(int argc, char **argv)
 		int size = 729; // 3^6
 		int depth = 5;
 		int threads = omp_get_max_threads();
-		string output_filename = "sierpinski_carpet.png";
+		string output_filename = "serp.jpg";
 
 		// Обработка аргументов командной строки
 		if (argc > 1)
